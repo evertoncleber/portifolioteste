@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto 01</title>
+</head>
+<body>
+    <div id="logo">Logo</div>
+    <ul id="menu">
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./sobre.html">SOBRE</a></li>
+        <li><a href="./trabalhos.html">TRABALHOS</a></li>
+        <li><a href="./contato.html">CONTATO</a></li>
+    </ul>
+    <main id="main">
+        <h1 style="text-align: center;">CONTATO</h1>
+
+          <form id="contact-form">
+            <h2>Formulário de Contato</h2>
+            <p>Preencha os campos abaixo para entrar em contato conosco:</p>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <div class="error" id="name-error"></div>
+          
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <div class="error" id="email-error"></div>
+          
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone">
+            <div class="error" id="phone-error"></div>
+          
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <div class="error" id="message-error"></div>
+          
+            <input type="submit" value="Enviar">
+          </form>
+
+    </main>
+
+    <footer>
+        <p>Copy ₢ Todos os diretos reservados</p>
+    </footer>
+</body>
+</html>

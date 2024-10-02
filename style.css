@@ -1,0 +1,151 @@
+body{
+    background-image:linear-gradient(to right, #111, #8f8d8d);
+    color: azure;
+}
+*{
+  margin: 0px;
+}
+#menu{
+    padding: 10px 150px 10px 10px;
+    text-align: right;
+}
+#menu li{
+    display:inline;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    
+}
+#menu li:hover{
+    background-color: yellowgreen;
+    border: 1px solid yellowgreen;
+}
+#menu li a{
+    text-decoration: none;
+    color: white;
+}
+#main{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    
+}
+main h1{
+    font-size: 30px;
+    text-align:center;
+    margin: 10px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+/* Estilizar PAGINA INICIAL */
+#legend{
+  border: 1px solid yellowgreen;
+  width: 500px;
+  display: inline-block;
+  margin: 100px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#legend h2{
+  font-size: 50px;
+  text-align: right;
+  color: yellowgreen;
+}
+#legend p{
+  font-size: 50px;
+  color:white;
+  text-align: right;
+}
+/* Estilizar o formulário */
+#contact-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Estilizar os campos de formulário */
+  #contact-form label {
+    display: block;
+    color: #111;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  #contact-form input[type="text"],
+  #contact-form input[type="email"],
+  #contact-form input[type="tel"],
+  #contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  #contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #eaeceb;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #contact-form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+  /* Estilizar as mensagens de erro */
+  .error {
+    color:red;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  /* Estilizar os PAGINA TRABALHOS */
+  #card{
+    width: 250px;
+    height: 400px;
+    display:inline-block;
+    margin: 10px;
+  }
+  #card img{
+    width: 250px;
+    max-height: 400px;
+    margin-top: 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px yellowgreen;
+  }
+  /* Estilizar os PAGINA SOBRE */
+  article img{
+    display: inline;
+    float: left;
+    border-radius: 10px;
+    margin: 50px 0px 30px 40px;
+    box-shadow: 0px 0px 100px #111;
+    width: 300px;
+  }
+  article .sobre{
+    max-width: 500px;
+    float:left;
+    background-color: transparent;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px #111;
+    line-height: 25px;
+  }
+  /* Estilizar os FOOTER */
+  footer{
+    background-color: rgba(172, 255, 47, 0.301);
+    bottom: 0;
+    width: 100%;
+  } 
+  footer p{
+    height: 30px;
+    text-align:center;
+    padding: 30px;
+    font-size: 20px;
+  }
